@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uygulama-3</title>
+    <style>
+        .divOzellik{
+            width: 100%;
+            height: 300px;
+            background-color: rgb(9, 226, 226);
+            text-align: center;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        CTRL + SPACE = içerik listeni çıkarır
+        8 - img = resim eklemek için kullanılır
+            src = resmin kaynagini gösterir(kendi klasörünüzde saklamanızı tavsiye ederim)
+            alt = resim bulunamazsa yazılacak metin
+            width = genişlik
+            height = yukseklik
+        9 - center = pencerede ortalamak için kullanılır
+        10 - span = satırın tamamını kaplamayan ifadeleri icin kullanılır
+        11 - a = bağlantı linki vermek için kullanılır
+            href = bağlanılacak adresin yazıldığı yerdir
+            target="_blank" = yeni sekmede açmasını sağlar
+        12 - ol = order list(sıralı liste)
+             ul = unorder list(sıralı olmayan liste)
+             li = liste elemanı
+        13 - table = tablo olusturmak için kullanılır
+             tr = table row (tablo satırı)
+             td = table data (tablo verisi)
+             th = table header (tablo başlığı)
+             rowspan = satır birleştirme
+             colspan = sütun birleştirme
+        14 - div = sayfa üzerinde bolmeler oluşturur  
+    -->
+
+    
+    <hr>
+        inline ve block 
+     block etiketleri
+    <h3>Zonguldak Bülent Ecevit Üniversitesi</h3>
+    <p>Devrek Meslek Yüksekokulu</p>
+    <hr>
+     inline etiketler
+    <span>İnternet ve Ağ teknolojileri</span>
+    <span>Web Programlama</span>
+   
+    <hr>
+    <center>
+    <img src="resim/turk-bayragi.png" alt="Türk Bayrağı Resmi Bulunamadı!"
+        width="400" height="250">
+    
+        <h3>İSTİKLÂL MARŞI</h3>
+        <p>Korkma, sönmez bu şafaklarda yüzen al sancak;</p>
+        <p> Sönmeden yurdumun üstünde tüten en son ocak.</p>
+        <p>O benim milletimin yıldızıdır, parlayacak;</p>
+        <p>O benimdir, o benim milletimindir ancak.</p>
+        <p>Çatma, kurban olayım çehreni ey nazlı hilâl!</p>
+        <p>Kahraman ırkıma bir gül… ne bu şiddet bu celâl?</p>
+        <p>Sana olmaz dökülen kanlarımız sonra helâl,</p>
+        <p>Hakkıdır, Hakk’a tapan, milletimin istiklâl.</p>
+    </center>
+   
+    <hr>
+    <p>ZBEUN web sitesine gitmek için <a href="https://www.beun.edu.tr">tıklayınız</a></p>
+    <a href="https://www.tccb.gov.tr/assets/dosya/istiklalmarsi_metin.pdf" target="_blank">
+        <img src="resim/turk-bayragi.png" alt="Resim Bulunamadı!"
+            width="50">
+    </a>
+    -->
+    
+    <hr>
+    <h3>İçecekler</h3>
+    <ul>
+        <li>Kahve</li>
+        <li>Çay</li>
+        <li>Uranyum</li>
+        <li>Oralet</li>
+    </ul>
+
+    <ol type="i">
+        <li>Kahve</li>
+        <li>Çay</li>
+        <li>Uranyum</li>
+        <li>Oralet</li> 
+    </ol>
+    <hr>
+    <h3>Learing Web Development</h3>
+    <ol type="I">
+        <li>
+            Backgorund Skills
+            <ol type="A">
+                <li>Unix Commands</li>
+                <li>Vim Text Ediyor</li>
+            </ol>
+        </li>
+        <li>
+            HTML
+            <ol type="A">
+                <li>Tags</li>
+                <li>
+                    Lists
+                    <ol type="i">
+                        <li>Unordered</li>
+                        <li>Ordered</li>
+                        <li>Definition</li>
+                        <li>Nested</li>
+                    </ol>
+                </li>
+                <li>
+                    Links
+                    <ol type="i">
+                        <li>Absolute</li>
+                        <li>Relative</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li>CSS</li>
+    </ol>
+  
+    <hr/>
+    <table border="1">
+        <tr>
+            <th colspan="3">Kişisel Bilgiler</th>
+        </tr>
+        <tr>
+            <th>İsim</th>
+            <th>Soyisim</th>
+            <th>Yaş</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Semih</td>
+            <td>AÇMALI</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            
+            <td>DİKMEN</td>
+            <td>19</td>
+        </tr>
+    </table>
+    <hr/>
+
+    <table border="2">
+        <tr>
+            <th colspan="3">Ürün</th>
+        </tr>
+        <tr>
+            <th>Nu</th>
+            <th>Ürün Adı</th>
+            <th>Ürün Adeti</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Defter</td>
+            <td rowspan="3">50</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Silgi</td>
+            
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Bilgisayar</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Kalem</td>
+            <td>20</td>
+        </tr>
+    </table>
+   
+    <hr/>
+    <div class="divOzellik">
+        <h3>Zonguldak Bülent Ecevit Üniversitesi'ne Hoş Geldiniz</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum repellendus nam facere eum esse aspernatur natus, atque ad officia minima magnam fuga molestias et numquam repudiandae laborum praesentium delectus, voluptatem voluptas nesciunt dolor! Quia distinctio ex similique est quisquam vero iste quasi inventore eum placeat quas minima tempore at sed quos cupiditate error enim praesentium vel, ea animi? Consequuntur, odit ducimus ipsam architecto fugit neque officia quod vero culpa eum voluptate soluta quos minus repellat corrupti iusto iste atque aliquam maiores ut aperiam temporibus voluptas doloremque at. Eius ipsum, esse facilis, cupiditate nemo impedit eveniet aliquam mollitia omnis dignissimos labore.</p>
+    </div>
+
+</body>
+</html>
