@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Çalışmaları</title>
+    <style>
+        #baslik1{
+            color: darkgoldenrod;
+            font-size: 22px;
+        }
+        .baslik2{
+            color: rgb(186, 29, 218);
+        }
+
+        .box1{
+            background-color: blanchedalmond;
+            width: 200px;
+            height: 150px;
+        }
+
+        .box2{
+            background-color: aquamarine;
+            width: 300px;
+            height: 150px;
+            color: rgb(236, 9, 180);
+            text-align: center;
+            background-image: url(resim/turk-bayragi.png);
+            background-size: cover;
+            background-position: center;
+            border: 5px solid #1571D6;
+        }
+
+        .kutu{
+            background-color: rgb(148, 100, 0);
+            width: 300px;
+            height: 300px;
+            /* 
+            dotted - noktali
+            dashed - çizgili
+            solid - tam kaplama
+            double - iki çizgi çeker
+            groove - 3D çerceve
+            ridge - 3D çerceve
+            inset - basilmis buton görünümü
+            outset - buton görünümü
+            none - çerceve yok
+            hidden - gizli cerceve
+            */
+            border: 10px double #15D61A;
+            /* border-style: dashed solid groove none; */
+            /* border-style: outset; */
+
+        }
+
+        .kutu2{
+            background-color: rgb(226, 28, 137);
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background-image: url(resim/turk-bayragi.png);
+            background-size: cover;
+            background-position: left;
+        }
+
+    </style>
+</head>
+<body>
+    <!--
+        class = birden çok kez kullanilabilir(. ile kullanilir)
+        id = degisken ismi gibidir bir kez kullanilmasi tavsiye edilir(# ile kullanilir)
+        etiket ismi ile kullanilabilir(tavsiye edilmez)
+    -->
+
+    <h3>Zonguldak Bülent Ecevit Üniversitesi</h3>
+    <h3 id="baslik1">Devrek Meslek Yüksekokulu</h3>
+    <h3 class="baslik2">İnternet ve Ağ Teknolojileri</h3>
+
+    <div class="box1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores saepe corporis consectetur eum velit iste, ea quidem eius exercitationem, animi sequi ad, minus odio rem nostrum minima cupiditate recusandae? Debitis!
+    </div>
+    <br><br><br> <hr>
+    <div class="box2">
+        <h5>Lorem ipsum dolor sit amet.</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, quaerat.</p>
+    </div>
+    <hr>
+    <div class="kutu">
+
+    </div>
+    <hr>
+    <div class="kutu2">
+
+    </div>
+
+</body>
+</html>
